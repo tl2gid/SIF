@@ -1,0 +1,43 @@
+@import url('https://cdn.jsdelivr.net/npm/galmuri@latest/dist/galmuri.css');
+@font-face {
+    font-family: 'Pretendard-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Pretendard-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-weight: 800;
+    font-style: normal;
+}
+body, html {cursor: url(../images/menu.png), auto}
+a {cursor: url(../images/lang-en.png), auto}
+*{margin:0; padding:0;}
+img{margin:0;}
+body,p,span,div,section,a,header,main,footer,address{font-size:14px; word-break: keep-all; margin:0; padding:0; font-family: 'Pretendard-Regular';}
+a{line-height:150%; color: inherit !important; font-family: inherit; font-size:inherit;  text-decoration:none !important; display:block;}
+ul,ol{list-style:none; margin:0; padding:0 !important; }
+address{font-style:normal;}
+th,td,tr,table{font-family: 'Pretendard-Regular';}
+ol li{line-height:180%;}
+p,li,address{line-height:150%;}
+h2{font-size:18px; font-weight: bold; }
+h3{font-size:15px;}
+h1,h2,h3,h4,h5,h6{ margin:0; padding:0; font-family: 'Galmuri11';}
+
+ol li{
+    counter-increment: ol-counter; 
+    padding: 0 0 0 1em;
+}
+
+ol li::before {
+    content: counter(ol-counter) '.';
+    position: absolute;
+    left:0;
+}
+
+body{-ms-overflow-style: none;}
+::-webkit-scrollbar {display: none;}
+.none{display:none;}
+.block{display:block;}

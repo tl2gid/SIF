@@ -1,0 +1,257 @@
+
+[history]
+
+create table history(
+  idx int primary key auto_increment,
+  year varchar(30) not null,
+  id varchar(10) not null,
+  title varchar(100) not null,
+  img varchar(50) not null,
+  period varchar(50) not null,
+  place varchar(100) not null,
+  host varchar(50),
+  sponsor varchar(50),
+  support varchar(50),
+  scale varchar(50),
+  spectator varchar(50),
+  event1 varchar(400),
+  event2 varchar(400),
+  event3 varchar(400),
+  event4 varchar(400),
+  event5 varchar(400),
+  report varchar(300)
+);
+
+insert into history values(
+  1,
+  '2015',
+  'h-2015',
+  '서울일러스트레이션페어2015',
+  '2015.png',
+  '2015년 8월 7일(금) ~ 9일(일) / 3일간',
+  '코엑스(COEX) Hall D2',
+  '오씨메이커스',
+  '한국콘텐츠진흥원, 서울디자인재단, 서울문화',
+  '',
+  '3개국 250 부스',
+  '30,800명',
+  '1.주제관 (FREEDOM SQUARE)',
+  '2.THE SIF 문화기획전',
+  '3.SIF 문화기획전',
+  '4.THE SIF 기획전(특별전)',
+  '5. THE SIF 클래스',
+  'https://drive.google.com/file/d/11uJbDfY3rti7Dqf00MSAiScT2lOXXXN5/view'
+);
+
+insert into history values(
+  2,
+  '2016',
+  'h-2016',
+  '서울일러스트레이션페어2016',
+  '2016.png',
+  '2016년 7월 8일(금) ~ 11일(월) / 4일간',
+  '코엑스(COEX) Hall D2',
+  '오씨메이커스',
+  '한국콘텐츠진흥원, 서울디자인재단, 서울문화',
+  '네이버 GRAFOLIO',
+  '4개국 358부스',
+  '49,470명',
+  '1. 기획관– 춤 추는, BOOK, 서커스',
+  '2. 세미나– 예술, 계약과 친해지기 _ 창작자를 위한 계약 및 저작권 가이드 주최',
+  '',
+  '',
+  '',
+  'https://drive.google.com/file/d/1OjkBr7IlgcwfGQAlqw6xeZ8vM8jjtR75/view'
+);
+
+insert into history values(
+  3,
+  '2017',
+  'h-2017',
+  '서울일러스트레이션페어2017',
+  '2017-1.png',
+  '2017년 7월 20일(목) ~ 23일(일) / 4일간',
+  '코엑스(COEX) Hall D',
+  '오씨메이커스',
+  '서울특별시',
+  '네이버 GRAFOLIO, 라미나, 스태들러',
+  '5개국 661개사 716 부스',
+  '64,900명',
+  '1. 세미나, 포럼– 일러스트레이터로 버티면서 폼나게 살아가기 밥장',
+  '2.기획 프로그램– Free Play Press.',
+  '',
+  '',
+  '',
+  'https://drive.google.com/file/d/1VtCJ9rBug9TBg5lmrqSvif2W3XZl9y7R/view'
+);
+
+insert into history values(
+  4,
+  'FairW',
+  'h-2017w',
+  '서울일러스트레이션페어W',
+  '2017-2.png',
+  '2017년 12월 28일(목) ~ 31일(일) / 4일간',
+  '코엑스(COEX) Hall B1홀 + SS실',
+  '오씨메이커스',
+  '서울특별시',
+  '네이버 GRAFOLIO, 라미나, 스태들러',
+  '275업체 290부스',
+  '31,160명',
+  '1. 특별전– The other room',
+  '2. 기획전– 서울그리팅카드공모전2017 수상작 전시',
+  '3. 워크샵– 리소 GOCCO프린트 워크샵',
+  '4. 이벤트– 나만의 그리팅카드 만들기',
+  '',
+  'https://drive.google.com/file/d/1vi4UQuBfmREbDuI1I9EtCa8cREVB8B-C/view'
+);
+insert into history values(
+  5,
+  '2018',
+  'h-2018',
+  '서울일러스트레이션페어2018',
+  '2018-1.jpg',
+  '2018년 7월 26일(목) ~ 29일(일) / 4일간',
+  '코엑스(COEX) Hall D',
+  '오씨메이커스',
+  '서울특별시',
+  '네이버 GRAFOLIO',
+  '10개국 701개사 732부스',
+  '71,000명',
+  '특별기획관:',
+  'World Illustration Awards 2017',
+  'Mixed_Melted-Global Illustration Show',
+  '전시기획 공모전 당선부스',
+  '',
+  'https://drive.google.com/file/d/1vzlAR7tbM9ClYki2nPozRYRYUkkNe4jE/view'
+);
+insert into history values(
+  6,
+  'Fair W 2018',
+  'h-2018w',
+  '서울일러스트레이션페어W2018',
+  '2018-2.png',
+  '2018년 12월 28일(금) ~ 31일(월) / 4일간',
+  '코엑스(COEX) Hall B1홀 + SS실',
+  '오씨메이커스',
+  '서울특별시',
+  '네이버 GRAFOLIO',
+  '5개국 500개사 518 부스',
+  '52,000명',
+  '주제관: 러브레터',
+  '기획관: Art on Fashion: Collaboration',
+  '테마존: 해피2019문구전',
+  '공모전: 서울그리팅카드공모전2018',
+  '워크샵: 실크스크린 >워크샵: 나만의 손그림을 굿즈에 프린트하기',
+  'http://seoulillustrationfair.co.kr/wp-content/uploads/2019/08/2018_report_w.pdf'
+);
+
+insert into history values(
+  7,
+  'Fair vol.7',
+  'h-2019',
+  '서울일러스트레이션페어vol.7',
+  '2019-1.jpg',
+  '2019년 7월 25일(목) ~ 28일(일) / 4일간',
+  '코엑스(COEX) D Hall',
+  '오씨메이커스',
+  '네이버 GRAFOLIO',
+  '디자인프레스, 플레이리스트',
+  '26개국 847참가자 870부스',
+  '69,500명',
+  '주제관: SPECTRUM PARK',
+  '글로벌 기획관: Here and Now, Global Illustration Show',
+  '세미나 : ‘Illustration : more flexible’',
+  '특별관: SIF’s PIXELTALK',
+  '특별전시: 그라폴리오 2018 W 틴에이저 일러스트 스토리 창작자 WINNER',
+  'http://seoulillustrationfair.co.kr/wp content/uploads/2019/08/%EC%84%9C%EC%9A%B8%EC%9D%BC%EB%9F%AC%EC%8A%A4%ED%8A%B8%EB%A0%88%EC%9D%B4%EC%85%98%ED%8E%98%EC%96%B4vol.7-%EA%B0%9C%EC%B5%9C%EA%B2%B0%EA%B3%BC%EB%B3%B4%EA%B3%A0%EC%84%9C.pdf'
+);
+
+insert into history values(
+  8,
+  'Fair vol.8',
+  'h-2019w',
+  '서울일러스트레이션페어vol.8',
+  '2019-2.jpg',
+  '2019. 12. 19 목 – 2019. 12. 22 일',
+  '코엑스(COEX) C HALL',
+  '오씨메이커스',
+  '삼성 갤럭시 스토어 / 네이버 GRAFOLIO',
+  '',
+  '8개국 1,163참가자 1,163부스',
+  '84,600여 명',
+  '아트온패션 : 고코리- 당신을 위한 어른동화 Art on Fashion: GOCORI- The fairy tale for you',
+  '기획관: Art on Fashion: Collaboration',
+  '테마존 : 해피2020문구전',
+  '특별전시 : 그라폴리오 2019S 틴에이저<>일러스트 스토리 창작자 WINNER',
+  '픽셀톡 : SIF’s PIXELTALK 야자타임',
+  'https://drive.google.com/file/d/1azfz-qsAJZcWKQYYcr4WA7pYvp2RCw2e/view?pli=1'
+);
+
+insert into history values(
+  9,
+  'Fair V.11',
+  'h-2021',
+  '서울일러스트레이션페어V.11',
+  '2021-1.png',
+  '2021. 08. 25 수 – 2021. 08. 28 토',
+  '코엑스(COEX)  HALL',
+  '오씨메이커스',
+  '한국엡손',
+  '디자인프레스',
+  '604 참가자 647 부스',
+  '21,500여 명',
+  '주제관AGORAP – Bookshelf, myself',
+  '기획전시SIF FRIENDS – SIF X BKKIF',
+  '',
+  '',
+  '',
+  'https://drive.google.com/file/d/1UQbyj2EmDIlQjxSYPtEMccVxNfOoP4oU/view'
+);
+
+insert into history values(
+  10,
+  'Fair V.12',
+  'h-2021w',
+  '서울일러스트레이션페어V.12',
+  '2021-2.jpg',
+  '2021. 12. 23 목 – 2021. 12. 26 일',
+  '코엑스(COEX) B HALL',
+  '오씨메이커스',
+  '서울특별시',
+  '디자인프레스',
+  '744 참가자 781 부스',
+  '34,429명',
+  '주제관: 상상하는 움직임',
+  '기획전시: Season’s Greeting',
+  '이벤트: 오거나이저스 빌리지',
+  '테마존: 해피2022문구전',
+  '',
+  'https://drive.google.com/file/d/1luSZmATIYgFn5EVLZLySlNjN-ufCzBVd/view'
+);
+
+insert into history values(
+  11,
+  'Fair V.13',
+  'h-2022',
+  '서울일러스트레이션페어V.13',
+  '2022.png',
+  '2022. 7. 7 목 – 2022. 7. 10 일',
+  '코엑스(COEX) D HALL',
+  '오씨메이커스',
+  'Klip Drops',
+  '서울특별시',
+  '699 참가자 742 부스',
+  '61,719명',
+  '주제관: AGORAP',
+  '– Artist’s Tiny Desk',
+  '– My Digital Art Library, SIFTing',
+  '',
+  '',
+  'https://drive.google.com/file/d/1FtqY052kV1_1ymP75KwvrbSOIcogYZ_-/view'
+);
+
+
+
+
+
